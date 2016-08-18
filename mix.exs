@@ -22,7 +22,7 @@ defmodule HttpBasicAuth.Mixfile do
   end
 
   defp package do
-    %{contributors: ["Ray Cheung"],
+    %{maintainers: ["Ray Cheung"],
       licenses: ["MIT"],
       links: %{github: "https://github.com/raycheung/http_basic_auth"},
       files: ~w(lib mix.exs README.md)}
