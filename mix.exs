@@ -18,7 +18,8 @@ defmodule HttpBasicAuth.Mixfile do
 
   defp deps do
     [{:cowboy, "~> 1.0"},
-     {:plug, "~> 1.0"}]
+     {:plug, "~> 1.0"},
+     {:ex_doc, ">= 0.0.0", only: :dev}]
   end
 
   defp package do
